@@ -117,7 +117,7 @@ localfiles.prototype.addToSchema = function() {
 		if (typeof element_id === 'undefined') {
 			value = values[0];
 		} else {
-			value = var value = _.find(values, function (val) {
+			value = _.find(values, function (val) {
 				return val.id === element_id;
 			});
 		}
